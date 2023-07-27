@@ -20,12 +20,12 @@
   color: #000;
 }
 
-.form-floating>.form-control:not(:placeholder-shown)~label::after{
-    background-color: transparent;
+.form-floating > .form-control:not(:placeholder-shown) ~ label::after {
+  background-color: transparent;
 }
 
-.form-control:focus{
-    background-color: #fff !important;
+.form-control:focus {
+  background-color: #fff !important;
 }
 
 .form-control {
@@ -33,7 +33,7 @@
 }
 
 .heading {
-    color: #6a11cb;
+  color: #6a11cb;
 }
 
 .date-picker-con > div:first-child {
@@ -61,6 +61,20 @@
   border-color: #6a11cb;
 }
 
-.err-msg{
-    color: rgba(255, 0, 0, 0.76);
+.err-msg {
+  color: rgba(255, 0, 0, 0.76);
+}
+
+/* small devices responsive min to tablet */
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/* Medium devices and Large devices (laptops/desktops, 768px and up) */
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }
